@@ -13,8 +13,8 @@ The converter was tested against many SWC files from [Neuromorpho.org](https://n
 Institute database](https://github.com/OpenSourceBrain/AllenInstituteNeuroML/tree/master/CellTypesDatabase/models)
 
 The first step was to make a SWC loader file.
-This loader file is a Python module designed to handle SWC files, which are commonly used 
-to represent neuronal morphology data. Here are the key components of the loader:
+This [loader file](https://github.com/NeuroML/pyNeuroML/blob/development/pyneuroml/swc/LoadSWC.py) is a Python module designed to 
+handle SWC files, which are commonly used to represent neuronal morphology data. Here are the key components of the loader:
 
 SWCNode class: This class represents individual nodes in the SWC file. It stores information such as node ID, type, 3D coordinates, 
 radius, and parent ID. It also defines constants for different node types (e.g., SOMA, AXON, BASAL_DENDRITE).
