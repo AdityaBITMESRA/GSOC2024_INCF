@@ -33,3 +33,10 @@ data, while also managing potential errors in the file format.
 Utility functions: The module includes additional functions like parse_header to handle specific aspects of the SWC file format.
 Error handling and logging: The loader implements robust error checking and uses Python's logging module for debugging and error reporting.
 
+Testing:-The SWC loader's functionality is verified by a comprehensive test suite that includes:
+
+1. Tests for correct initialization and representation of individual SWC nodes.
+2. Tests for SWCGraph operations like adding nodes, retrieving parent/child nodes, and filtering by type.
+3. Tests for metadata handling and prevention of duplicate node IDs.
+4. A load-export-compare test to ensure accurate file reading and writing capabilities.
+
