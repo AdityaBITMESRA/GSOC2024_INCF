@@ -44,21 +44,11 @@ My next step was to make Export module which exports the loaded SWC to NeuroML
 This export functionality is implemented in the NeuroMLWriter class, which converts the SWC graph data to NeuroML format. Here are the key components and features of this export module:
 
 1. NeuroMLWriter class: This class takes an SWCGraph object and converts it into a NeuroML representation. It handles different neuron segment types and creates appropriate segment groups.
-2. Key methods of NeuroMLWriter:
 
-create_cell(): Creates a Cell object for the NeuroML representation.
-parse_tree(): Recursively parses the SWC tree to create NeuroML segments.
-handle_soma(): Handles the creation of soma segments based on different soma representation cases.
-create_segment(): Creates a NeuroML segment from an SWC point.
-create_segment_groups(): Creates NeuroML segment groups based on the segments created.
-nml_string(): Generates the NeuroML representation as a string.
-export_to_nml_file(): Exports the NeuroML representation to a file.
+2. Soma handling: The export module implements soma representation guidelines as described in "Soma format representation in NeuroMorpho.Org as of version 5.3". It handles various cases including single contour, multiple contours, and single point representations.
 
-
-3. Soma handling: The export module implements soma representation guidelines as described in "Soma format representation in NeuroMorpho.Org as of version 5.3". It handles various cases including single contour, multiple contours, and single point representations.
-
-4. Segment grouping: The exporter creates appropriate segment groups for different parts of the neuron (soma, axon, dendrites) and handles unbranched segment group creation.
-5. Metadata preservation: The exporter preserves metadata from the original SWC file and adds it to the NeuroML representation.
+3. Segment grouping: The exporter creates appropriate segment groups for different parts of the neuron (soma, axon, dendrites) and handles unbranched segment group creation.
+4. Metadata preservation: The exporter preserves metadata from the original SWC file and adds it to the NeuroML representation.
 Error handling and logging: The export module includes extensive error checking and logging to ensure reliable conversion and to aid in debugging.
 
 
