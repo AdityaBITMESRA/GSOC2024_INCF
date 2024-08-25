@@ -40,7 +40,8 @@ Testing:-The SWC loader's functionality is verified by a comprehensive test suit
 3. Tests for metadata handling and prevention of duplicate node IDs.
 4. A load-export-compare test to ensure accurate file reading and writing capabilities.
 
-2. My next step was to make Export module which exports the loaded SWC to NeuroML
+
+2.  My next step was to make Export module which exports the loaded SWC to NeuroML
 This export functionality is implemented in the NeuroMLWriter class, which converts the SWC graph data to NeuroML format. Here are the key components and features of this export module:
 
 2.1 NeuroMLWriter class: This class takes an SWCGraph object and converts it into a NeuroML representation. It handles different neuron segment types and creates appropriate segment groups.
