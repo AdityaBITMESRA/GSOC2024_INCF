@@ -10,6 +10,8 @@ This readme file will contain details about my work that I have done throughout 
 I have also blogged about my journey and challenges in my personal blog here 
 [Aditya's Blog](https://adityabitmesra.github.io/personalblog/)
 
+## Project Overview
+
 My goal was to make a Python Based SWC to NeuroML Converter.
 With the instruction from my mentors I divided my task into two parts which was trying to make a Python program to Load the 
 SWC format and then a second one to do the conversion.
