@@ -51,4 +51,11 @@ This export functionality is implemented in the NeuroMLWriter class, which conve
 4. Metadata preservation: The exporter preserves metadata from the original SWC file and adds it to the NeuroML representation.
 Error handling and logging: The export module includes extensive error checking and logging to ensure reliable conversion and to aid in debugging.
 
+Testing:- The test module does thorough testing of the export module with special soma cases also
+Here's a concise 5-line summary of the testing approach:
+
+1. Each test parses an SWC string, converts it to NeuroML, and checks the output structure and content.
+2. Common checks include NeuroML elements, segment creation, group formation, and coordinate representation.
+3. The suite also verifies error handling and uses temporary files for SWC parsing tests.
+
 
