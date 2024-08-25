@@ -2,9 +2,9 @@
 Repository for the details of my work in the Google Summer Of Code 2024 with the INCF organisation 
 
 **Mentee:**       [Aditya Pandey](https://github.com/AdityaBITMESRA)<br/>
-Mentors:      [Ankur Sinha](https://github.com/sanjayankur31), [Padraig Gleeson](https://github.com/pgleeson)<br/>
-Organization: [INCF](https://incf.org/)<br/>
-Project Name: Implementation of SWC to NeuroML converter in PyNeuroML<br/>
+**Mentors:**      [Ankur Sinha](https://github.com/sanjayankur31), [Padraig Gleeson](https://github.com/pgleeson)<br/>
+**Organization:** [INCF](https://incf.org/)<br/>
+**Project Name:** Implementation of SWC to NeuroML converter in PyNeuroML<br/>
 
 This readme file will contain details about my work that I have done throughout my GSoC period with the INCF organisation.
 I have also blogged about my journey and challenges in my personal blog here 
@@ -18,6 +18,10 @@ SWC format and then a second one to do the conversion.
 
 The converter was tested against many SWC files from [Neuromorpho.org](https://neuromorpho.org/) and some major cells from [Allen 
 Institute database](https://github.com/OpenSourceBrain/AllenInstituteNeuroML/tree/master/CellTypesDatabase/models)
+
+
+## **SWC to NeuroML Converter: Development and Testing**
+
 
 The first step was to make a SWC loader file.
 This [loader file](https://github.com/NeuroML/pyNeuroML/blob/development/pyneuroml/swc/LoadSWC.py) is a Python module designed to 
