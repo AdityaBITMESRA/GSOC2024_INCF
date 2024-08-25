@@ -1,8 +1,8 @@
 ## Google Summer Of Code 2024_INCF
 Repository for the details of my work in the Google Summer Of Code 2024 with the INCF organisation 
 
-Mentee: [Aditya Pandey](https://github.com/AdityaBITMESRA)<br/>
-Mentors: [Ankur Sinha](https://github.com/sanjayankur31), [Padraig Gleeson](https://github.com/pgleeson)<br/>
+Mentee:       [Aditya Pandey](https://github.com/AdityaBITMESRA)<br/>
+Mentors:      [Ankur Sinha](https://github.com/sanjayankur31), [Padraig Gleeson](https://github.com/pgleeson)<br/>
 Organization: [INCF](https://incf.org/)<br/>
 Project Name: Implementation of SWC to NeuroML converter in PyNeuroML<br/>
 
