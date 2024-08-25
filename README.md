@@ -68,4 +68,16 @@ Testing:- The test module does thorough testing of the export module with specia
 2. Common checks include NeuroML elements, segment creation, group formation, and coordinate representation.
 3. The suite also verifies error handling and uses temporary files for SWC parsing tests.
 
+<h2>Merged Pull Requests</h2>
 
+<p> Here's a list of significant PRs that have been merged:</p>
+
+<ol>
+  <li><a href="https://github.com/NeuroML/pyNeuroML/pull/384"><span style="color: #0366d6;">Initial implementation of SWC loader</span></a>
+    <ul>
+      <li>Added SWCNode and SWCGraph classes</li>
+      <li>Implemented basic file parsing functionality</li>
+    </ul>
+  </li>
+
+  
