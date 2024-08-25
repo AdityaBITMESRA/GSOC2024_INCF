@@ -80,4 +80,9 @@ Testing:- The test module does thorough testing of the export module with specia
     </ul>
   </li>
 
-  
+  <li><a href="https://github.com/NeuroML/pyNeuroML/pull/404"><span style="color: #28a745;">SWC export module and test module</span></a>
+    <ul>
+      <li>Adds function to export SWC graph to a new SWC file</li>
+      <li>2.Adds tests to verify if generated file and input file are similar</li>
+    </ul>
+  </li>
