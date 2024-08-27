@@ -107,11 +107,17 @@ handle SWC files, which are commonly used to represent neuronal morphology data.
     </ul>
   </li>
 
-<p> PR which awaits approval(Export Module)</p>
-<li><a href="https://github.com/NeuroML/pyNeuroML/pull/407"><span style="color: #0366d6;">Initial implementation of SWC loader</span></a>
-    <ul>
-      <li>Adds ExportNML module which creates NeuroML files</li>
-      <li>Adds test module which tests for Soma handling cases</li>
-    </ul>
-  </li>
+<h3 style="color: #f9c513;">Significant Pull Request Awaiting Approval</h3>
 
+<div style="border-left: 4px solid #f9c513; padding-left: 20px;">
+  <h4><a href="https://github.com/NeuroML/pyNeuroML/pull/407"><span style="color: #e36209;">NeuroML Export Module Implementation</span></a></h4>
+  <p>This crucial PR introduces the core functionality for converting SWC to NeuroML format. It is currently under review and pending approval.</p>
+  <ul>
+    <li>Adds ExportNML module which creates NeuroML files</li>
+    <li>Adds test module which tests for Soma handling cases</li>
+    <li>Implements NeuroMLWriter class for SWC to NeuroML conversion</li>
+    <li>Handles different neuron segment types and creates appropriate segment groups</li>
+  </ul>
+  <p><strong>Status:</strong> Awaiting review and approval</p>
+  <p><strong>Importance:</strong> This PR is critical for the project as it implements the core export functionality, enabling the conversion of SWC files to NeuroML format.</p>
+</div>
