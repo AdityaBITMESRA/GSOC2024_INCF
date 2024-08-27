@@ -88,9 +88,11 @@ handle SWC files, which are commonly used to represent neuronal morphology data.
 - Uses temporary files for SWC parsing tests
 - Validates against real-world data from Neuromorpho.org and Allen Institute
 
-<h2>Merged Pull Requests</h2>
+<h2>Pull Requests</h2>
 
-<p> Here's a list of significant PRs that have been merged:</p>
+<h3 style="color: #0366d6;">Merged Pull Requests</h3>
+
+<p>Here's a list of significant PRs that have been merged:</p>
 
 <ol>
   <li><a href="https://github.com/NeuroML/pyNeuroML/pull/384"><span style="color: #0366d6;">Initial implementation of SWC loader</span></a>
@@ -103,9 +105,10 @@ handle SWC files, which are commonly used to represent neuronal morphology data.
   <li><a href="https://github.com/NeuroML/pyNeuroML/pull/404"><span style="color: #28a745;">SWC export module and test module</span></a>
     <ul>
       <li>Adds function to export SWC graph to a new SWC file</li>
-      <li>2.Adds tests to verify if generated file and input file are similar</li>
+      <li>Adds tests to verify if generated file and input file are similar</li>
     </ul>
   </li>
+</ol>
 
 <h3 style="color: #f9c513;">Significant Pull Request Awaiting Approval</h3>
 
@@ -121,3 +124,5 @@ handle SWC files, which are commonly used to represent neuronal morphology data.
   <p><strong>Status:</strong> Awaiting review and approval</p>
   <p><strong>Importance:</strong> This PR is critical for the project as it implements the core export functionality, enabling the conversion of SWC files to NeuroML format.</p>
 </div>
+
+<p>These Pull Requests represent significant steps in the development of the SWC to NeuroML converter. They showcase the iterative process of building, testing, and refining the tool throughout the Google Summer of Code period. The pending PR for the NeuroML Export Module is particularly crucial as it completes the primary functionality of the converter.</p>
