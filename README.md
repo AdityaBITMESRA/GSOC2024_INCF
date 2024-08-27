@@ -106,3 +106,12 @@ handle SWC files, which are commonly used to represent neuronal morphology data.
       <li>2.Adds tests to verify if generated file and input file are similar</li>
     </ul>
   </li>
+
+<p> PR which awaits approval(Export Module)</p>
+<li><a href="https://github.com/NeuroML/pyNeuroML/pull/407"><span style="color: #0366d6;">Initial implementation of SWC loader</span></a>
+    <ul>
+      <li>Adds ExportNML module which creates NeuroML files</li>
+      <li>Adds test module which tests for Soma handling cases</li>
+    </ul>
+  </li>
+
