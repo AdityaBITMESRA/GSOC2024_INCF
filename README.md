@@ -74,7 +74,7 @@ Institute database](https://github.com/OpenSourceBrain/AllenInstituteNeuroML/tre
     <li>Handles different neuron segment types and creates appropriate segment groups</li>
   </ul>
   <p><strong>Status:</strong> Approved(with some major tweaks from my mentor[Ankur Sinha](https://github.com/sanjayankur31))</p>
-  <p><strong>Export Module:</strong>[The export module can be accessed here](https://github.com/NeuroML/pyNeuroML/blob/development/pyneuroml/swc/ExportNML.py) </p>
+  <p><strong>Export Module:</strong><a href="https://github.com/NeuroML/pyNeuroML/blob/development/pyneuroml/swc/ExportNML.py">The export module can be accessed here</a> </p>
   <p><strong>Importance:</strong> This PR is critical for the project as it implements the core export functionality, enabling the conversion of SWC files to NeuroML format.</p>
 </div>
 
